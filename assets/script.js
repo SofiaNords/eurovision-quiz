@@ -9,16 +9,26 @@ let questionNumber = 0;
 let score = 0;
 
 // questions
-const questions = [
-    {
-        question: "Who won the first ever Eurovision Song Contest in 1956?",
-        answers: [
-            {text: "Switzerland", correct: true},
-            {text: "United Kingdom", correct: false},
-            {text: "France", correct: false},
-            {text: "Italy", correct: false},
-        ]
-    }];
+const questions = [{
+    question: "Who won the first ever Eurovision Song Contest in 1956?",
+    answers: [{
+            text: "Switzerland",
+            correct: true
+        },
+        {
+            text: "United Kingdom",
+            correct: false
+        },
+        {
+            text: "France",
+            correct: false
+        },
+        {
+            text: "Italy",
+            correct: false
+        },
+    ]
+}];
 
 function startQuiz() {
     questionNumber = 0;
@@ -31,15 +41,36 @@ function showQuestion() {
     let currentQuestion = questions[questionNumber];
     let questionNo = questionNumber + 1;
     question.innerHTML = questionNo + ". " + currentQuestion.question;
-    
+
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
+        if (answer.correct) {
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener('click', selectAnswer);
     })
 }
 
+function selectAnswer() {
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if (isCorrect) {
+        selectedBtn.classList.add("correct");
+        score++;
+    } else {
+        selectedBtn.classList.add("incorrect");
+    }
+    Array.from(answerButtons.children).forEach(button => {
+        if (button.dataset.correct === "true") {
+            button.classList.add("correct");
+        }
+        button.disabled = "true";
+    });
+    nextButton.style.display = "block";
+}
 
 
 startQuiz();
