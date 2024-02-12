@@ -66,3 +66,13 @@ h2 {
     border-radius: 4px;
     cursor: pointer;
 }
+
+/* Correct or Incorrect answer color button */
+
+.correct {
+    background-color: #75F94D; 
+}
+
+.incorrect {
+    background-color: #ED1C24;
+}
