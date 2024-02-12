@@ -79,5 +79,28 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+function showScore() {
+    resetState();
+    question.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = 'Play Again';
+    nextButton.style.display = "block";
+}
+
+function handleNextButton() {
+    questionNumber++;
+    if (questionNumber < questions.length) {
+        showQuestion();
+    } else {
+        startQuiz();
+    }
+}
+
+nextButton.addEventListener ("click", () => {
+    if (questionNumber < questions.length) {
+        handleNextButton();
+    } else {
+        startQuiz();
+    }
+});
 
 startQuiz();
