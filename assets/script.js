@@ -51,10 +51,17 @@ function showQuestion() {
             button.dataset.correct = answer.correct;
         }
         button.addEventListener('click', selectAnswer);
-    })
+    });
 }
 
-function selectAnswer() {
+function resetState() {
+    nextButton.style.display = "none";
+    while (answerButtons.firstChild)  {
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}
+
+function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if (isCorrect) {
