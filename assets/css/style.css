@@ -9,6 +9,17 @@ body {
     background-color: #000000;
 }
 
+h1 {
+    font-family: 'Protest Riot', sans-serif;
+    text-align: center;
+    font-size: 250%;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
 /* Big-box area */
 #big-box {
     background-color: #FF01A3;
@@ -17,6 +28,7 @@ body {
     border-radius: 10px;
     padding: 30px;
     margin: 100px auto 0;
+    font-family: sans-serif;
 }
 
 /* Answer buttons */
