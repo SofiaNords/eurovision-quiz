@@ -264,7 +264,7 @@ function handleNextButton() {
     if (questionNumber < questions.length) {
         showQuestion();
     } else {
-        startQuiz();
+        showScore();
     }
 }
 
