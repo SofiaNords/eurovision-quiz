@@ -31,14 +31,16 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
         https://www.w3schools.com/csS/css3_box-sizing.asp
         
     -   #### Colour Scheme
-        -   The three main colors used are #03574B (cyan-blue), rgb(245, 242, 242) (representing a very light shade of gray), and #fafafa (white). I captured the blue and gray shade from the hero image using Paint. 
+        -  I extracted the colors from the image below, which features the Eurovision Song Contest. The text elements and body have a black background (#000000), while the ‘big-box’ background color is Hollywood Cerise (#FF01A3). The answer buttons are yellow (#FBC004).
 
-            <img src="assets/images/colour-scheme.png">   <img src="assets/images/logo.png">
+            <img src="assets/images/eurovision.png">   
 
     -   #### Typography
         -   The 'Protest Riot' is font used for the 'Eurovision Quiz!' heading while 'Sans-serif' is used for other content, serving as the fallback font.
 
             <img src="assets/images/typography.png">
+
+    -   #### Wireframes
 
 
 
