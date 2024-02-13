@@ -82,3 +82,19 @@ h2 {
 .incorrect {
     background-color: #ED1C24;
 }
+
+/* Media query; tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 400%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    .btn {
+        font-size: 130%;
+    }
+    #next-btn {
+        font-size: 130%;
+    }
+}
