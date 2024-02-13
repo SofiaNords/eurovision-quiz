@@ -33,7 +33,7 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
     -   #### Colour Scheme
         -  I extracted the colors from the image below, which features the Eurovision Song Contest. The text elements and body have a black background (#000000), while the ‘big-box’ background color is Hollywood Cerise (#FF01A3). The answer buttons are yellow (#FBC004).
 
-            <img src="assets/images/eurovision.png">   
+            <img src="assets/images/eurovision-color.jpg">   
 
     -   #### Typography
         -   The 'Protest Riot' is font used for the 'Eurovision Quiz!' heading while 'Sans-serif' is used for other content, serving as the fallback font.
