@@ -2,7 +2,6 @@
 const question = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
-const wrapper = document.getElementById('wrapper');
 
 // variables to keep track
 let questionNumber = 0;

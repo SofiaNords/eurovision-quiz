@@ -1,8 +1,8 @@
 <h1 align="center">Eurovision Quiz</h1>
 
-[View the live project here.](https://sofianords.github.io/beach-club/)
+[View the live project here.](https://sofianords.github.io/eurovision-quiz/)
 
-This is the website of Tjuvkil’s Bathing Association. It is intended for its members, potential members, and others who want to find information about the association. The board of the association can easily reach out with news and information about upcoming events on this easy-to-navigate site that works on a range of devices.
+The Eurovision Quiz is a web application where users can test their knowledge about the Eurovision Song Contest. Through a series of engaging questions, participants can challenge themselves on Eurovision history. Whether you’re a seasoned Eurovision fan or a curious newcomer, this quiz provides an entertaining way to explore the world of Eurovision.
 
 <h2 align="center"><img src="assets/images/am-i-responsive.png"></h2>
 
@@ -10,23 +10,19 @@ This is the website of Tjuvkil’s Bathing Association. It is intended for its m
 
 -   ### User stories
 
-    -   #### First Visitor Goals
+    -   #### User goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the association.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find information.
-        3. As a First Time Visitor, I would like to find links to social media to learn more about the community in the association and get an idea of what it’s like to be a member.
-        4. As a First Time Visitor, I want to know how I can become a member of the association, what it means to be a member, and what is expected of me as a member if I become one.
+        1. Start the Quiz Effortlessly:
+        
+            Users can begin the quiz without any explicit instructions since the interface is highly intuitive.
+        
+        2. View Performance Scores:
+            
+            Participants receive their quiz scores, allowing them to gauge how well they performed.
 
-    -   #### Returning Visitor Goals
+        3. Unlimited Retries:
 
-        1. As a Returning Visitor, I want to find information about news and events in the association.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
-
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added events to participate in.
-        2. As a Frequent User, I want to check to see if there are any news about the bathing areas.
-        3. As a Frequent User, I want to be able to ask questions and make suggestions to the board.
+            Users have the flexibility to retake the quiz as many times as they’d like.
 
 -   ### Design
     -   #### Layout
@@ -49,42 +45,13 @@ This is the website of Tjuvkil’s Bathing Association. It is intended for its m
 
 ## Features
 
-- The landing page 
+- JavaScript Array forEach()
 
-    The first thing the user encounters is a large picture of Tjuvkil Beach on a beautiful summer day when the beach is at its best. The image should convey a feeling of wanting to be there.
+    Since each question has four answer options that should generate buttons with the content from the ‘question'array, I used the array forEach() method.
 
-    <img src="assets/images/feature-first-picture.png">
-- The navbar
-
-    The navbar is clear and consistent with the design. It indicates that you are on the home page by highlighting the home page. If you switch to another page, such as Contact, that page will be highlighted instead.
-
-- Content first page
-
-    Just below the large picture of Tjuvkil Beach, there is a brief summary of current news and events, as well as links to the News & Events page so that you can quickly navigate and read the entire article. Next to it, you will find an explanation, ‘About Tjuvkil Beach’, which describes the association's purpose and goals.
-
-    <img src="assets/images/feature-second-picture.png">
-
-    If the user clicks on the ‘Become a member’ link, they will be taken to the ‘Contact’ page where they can write a message and check the box to become a member.
-
-- Footer and social media icons
-
-   The footer is designed to be consistent with the overall look and feel of the site, and it provides easy access to social media links. The footer is fixed in place, so users will always see the links as they navigate the site.
-
-    <img src="assets/images/feature-third-picture.png">
+    https://www.w3schools.com/jsref/jsref_forEach.asp
 
 
-- Link in News & Events page
-
-    I have added a link to the ‘Contact’ page in the information text about the Midsummer celebration so that the user can quickly take action to express their interest in helping with the preparations.
-
-    <img src="assets/images/feature-fourth-picture.png">
-
-
-- Contact Form
-
-    On the ‘Contact’ page, there is a contact form where the user can send messages to the association. There is a ‘Become a member’ checkbox available for those who want to become a member. The name and email address fields are mandatory so that the association can provide feedback to the user.
-    
-    <img src="assets/images/feature-fifth-picture.png">
 
 - Other features
 
