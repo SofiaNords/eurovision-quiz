@@ -253,7 +253,13 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    question.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    if (score < 4) {
+        question.innerHTML = `You scored ${score} out of ${questions.length}, better luck next time!`;
+    } else if (score => 4 && score < 8){
+        question.innerHTML = `You scored ${score} out of ${questions.length}, well done!`;
+    } else {
+        question.innerHTML = `You scored ${score} out of ${questions.length}, you're a star!`;
+    }
     nextButton.innerHTML = 'Play Again';
     nextButton.style.display = "block";
 }

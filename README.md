@@ -35,6 +35,8 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
             <img src="assets/images/eurovision-color.jpg">   
 
+            <img src="assets/images/color-scheme.jpg">   
+
     -   #### Typography
         -   The 'Protest Riot' is font used for the 'Eurovision Quiz!' heading while 'Sans-serif' is used for other content, serving as the fallback font.
 
