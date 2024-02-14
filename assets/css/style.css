@@ -25,7 +25,7 @@ h2 {
     padding: 10px 0;
 }
 
-/* Big-box area */
+/* Wrapper area */
 #wrapper {
     background-color: #FF01A3;
     width: 90%;
@@ -118,4 +118,8 @@ h2 {
     #next-btn {
         font-size: 130%;
     }
+
+    /* Wrapper area */
+#wrapper {
+    margin: 150px auto 0;
 }
