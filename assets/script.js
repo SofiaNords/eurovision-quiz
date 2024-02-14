@@ -201,6 +201,7 @@ const questions = [{
 }
 ];
 
+// Start Quiz
 function startQuiz() {
     questionNumber = 0;
     score = 0;
@@ -208,6 +209,7 @@ function startQuiz() {
     showQuestion();
 }
 
+// Show question and answer options
 function showQuestion() {
     resetState();
     let currentQuestion = questions[questionNumber];
@@ -226,11 +228,13 @@ function showQuestion() {
     });
 }
 
+// Hide Next-button and remove answer buttons
 function resetState() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild)  {
         answerButtons.removeChild(answerButtons.firstChild);
     }
+    resetConfetti();
 }
 
 function selectAnswer(e) {
@@ -253,16 +257,43 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    if (score < 4) {
-        question.innerHTML = `You scored ${score} out of ${questions.length}, better luck next time!`;
-    } else if (score => 4 && score < 8){
-        question.innerHTML = `You scored ${score} out of ${questions.length}, well done!`;
-    } else {
+    if (score >= 8) {
         question.innerHTML = `You scored ${score} out of ${questions.length}, you're a star!`;
+        createConfetti();
+    } else if (score < 4) {
+        question.innerHTML = `You scored ${score} out of ${questions.length}, better luck next time!`;
+    } else {
+        question.innerHTML = `You scored ${score} out of ${questions.length}, well done!`;
     }
     nextButton.innerHTML = 'Play Again';
     nextButton.style.display = "block";
 }
+
+// Confetti
+function createConfetti() {
+    const container = document.getElementById("confetti-container");
+    const confettiCount = 50; // Number of confetti
+
+    for (let i = 0; i < confettiCount; i++) {
+        const confetti = document.createElement("div");
+        confetti.classList.add("confetti");
+
+        // Random colours
+        const randomColor = Math.random() < 0.5 ? "#0A2DE1" : "#f39c12"; // Two different colours
+
+        confetti.style.left = Math.random() * 100 + "vw"; // Random horizontal position
+        confetti.style.backgroundColor = randomColor; // Use random colour
+        confetti.style.animationDelay = Math.random() * 3 + "s"; // Random delay
+
+        container.appendChild(confetti);
+    }
+}
+
+function resetConfetti() {
+    const container = document.getElementById("confetti-container");
+    container.innerHTML = ""; // Remove confetti elements
+}
+
 
 function handleNextButton() {
     questionNumber++;
@@ -280,5 +311,6 @@ nextButton.addEventListener ("click", () => {
         startQuiz();
     }
 });
+
 
 startQuiz();

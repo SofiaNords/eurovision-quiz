@@ -26,7 +26,7 @@ h2 {
 }
 
 /* Big-box area */
-#big-box {
+#wrapper {
     background-color: #FF01A3;
     width: 90%;
     max-width: 600px;
@@ -81,6 +81,27 @@ h2 {
 
 .incorrect {
     background-color: #ED1C24;
+}
+
+/* Confetti animation */
+@keyframes confetti-fall {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+/* Confetti style */
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f39c12; /* Anpassa färgen efter ditt tema */
+    animation: confetti-fall 3s ease infinite;
 }
 
 /* Media query; tablets and larger (768px and up) */
