@@ -228,7 +228,7 @@ function showQuestion() {
     });
 }
 
-// Hide Next-button and remove answer buttons
+// Hide next-button, remove answer buttons and stop confetti
 function resetState() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild)  {
@@ -237,6 +237,7 @@ function resetState() {
     resetConfetti();
 }
 
+// Feedback if answer is correct, disable answer buttons, display next-button and keeping score
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -255,6 +256,7 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+// Show final score with different messages and calls confetti function depending on score
 function showScore() {
     resetState();
     if (score >= 8) {
@@ -269,7 +271,7 @@ function showScore() {
     nextButton.style.display = "block";
 }
 
-// Confetti
+// Confetti function
 function createConfetti() {
     const container = document.getElementById("confetti-container");
     const confettiCount = 50; // Number of confetti
@@ -289,12 +291,13 @@ function createConfetti() {
     }
 }
 
+// Stops confetti when called
 function resetConfetti() {
     const container = document.getElementById("confetti-container");
     container.innerHTML = ""; // Remove confetti elements
 }
 
-
+// Show next question or displaying final score 
 function handleNextButton() {
     questionNumber++;
     if (questionNumber < questions.length) {
@@ -304,6 +307,7 @@ function handleNextButton() {
     }
 }
 
+// Check if there is a next question or starting the quiz again
 nextButton.addEventListener ("click", () => {
     if (questionNumber < questions.length) {
         handleNextButton();
@@ -312,5 +316,5 @@ nextButton.addEventListener ("click", () => {
     }
 });
 
-
+// Start quiz
 startQuiz();
