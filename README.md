@@ -4,7 +4,7 @@
 
 The Eurovision Quiz is a web application where users can test their knowledge about the Eurovision Song Contest. Through a series of engaging questions, participants can challenge themselves on Eurovision history. Whether you’re a seasoned Eurovision fan or a curious newcomer, this quiz provides an entertaining way to explore the world of Eurovision.
 
-<h2 align="center"><img src="assets/images/am-i-responsive.png"></h2>
+<h2 align="center"><img src="assets/images/responsive-eurovision-quiz.jpg"></h2>
 
 ## User Experience (UX)
 
@@ -73,17 +73,11 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the ‘Dancing Script’ font into the style.css file.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used for social media icons and the nav-toggle bar in the header for mobile devices.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Adobe Express:](https://new.express.adobe.com/)
-    - Adobe Express was used to resizing images.
-  
-1. [Tinify:](https://tinypng.com/)
-    - Tinify was used to compress and convert the images to .wepb.
+
 
 ## Validator Testing
 
