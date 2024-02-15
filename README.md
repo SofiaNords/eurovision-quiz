@@ -31,7 +31,7 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
         https://www.w3schools.com/csS/css3_box-sizing.asp
         
     -   #### Colour Scheme
-        -  I extracted the colors from the image below, which features the Eurovision Song Contest. The text elements and body have a black background (#000000), while the ‘big-box’ background color is Hollywood Cerise (#FF01A3). The answer buttons are yellow (#FBC004).
+        -  I extracted the colors from the image below, which features the Eurovision Song Contest. The text elements and body have a black background (#000000), while the ‘big-box’ background color is Hollywood Cerise (#FF01A3). The 'answer-buttons' are yellow (#FBC004).
 
             <img src="assets/images/eurovision-color.jpg">   
 
@@ -49,6 +49,48 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
 ## Features
 
+- Start quiz
+
+    <img src="assets/images/start-quiz.jpg">
+
+    The first question is visible when the user enters the website. The question number and score is reseted to 0 and the 'next-button' is hidden. 
+
+- Correct vs Incorrect answer
+
+    <img src="assets/images/correct-incorrect-answer.jpg">
+
+    If the user select the correct answer the backgroundcolour of the button turns green and the score increments. 
+    
+    If the user select the incorrect answer the backgroundcolour of the button turns red and the backgroundcolour of the button with the correct answer turns green. 
+    
+    When an answer is selected all the 'answer-buttons' are disabled.
+
+- The 'next-button'
+
+    <img src="assets/images/next-button.jpg">
+
+    When the user selected an answer the 'next-button' appears.
+
+
+- Next question
+
+    <img src="assets/images/question-no-2.jpg">
+
+    When the user click the 'next-button' the quiz resets for the next question and hides the 'next-button' again. The reseteState function removes the 'answer-buttons'.
+    
+    The next question appears and new buttons are created with the answers related to that question.
+
+
+
+- The end of the quiz
+
+    <img src="assets/images/end-of-quiz.jpg">
+
+    When user click the 'next-button' after question number 10 the resetState removes the 'answer-buttons' and change the innerHTML of the 'next-button' to 'Play Again'.
+
+    The scores shows and depending on how well the user played different messeges displays. If the user scores more then 9 points confetti appears.
+
+
 - JavaScript Array forEach()
 
     Since each question has four answer options that should generate buttons with the content from the ‘question'array, I used the array forEach() method.
@@ -59,7 +101,7 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
 - Other features
 
-    The page is responsive on all devices and has links and buttons with hover features.
+    The page is responsive on all devices...
 
 
 ## Technologies Used
