@@ -201,7 +201,13 @@ const questions = [{
 }
 ];
 
-// Start Quiz
+/**
+ * This function starts the quiz.
+ * Resets questionNumber and score to 0.
+ * Change text in nextButton to "Next".
+ * Calls the showQuestion function:
+ * 
+ */
 function startQuiz() {
     questionNumber = 0;
     score = 0;
@@ -209,7 +215,15 @@ function startQuiz() {
     showQuestion();
 }
 
-// Show question and answer options
+/**
+ * This function show current question and answer options.
+ * It first resets the state of the quiz by calling resetState function.
+ * Then it retrieves the current question based on the question number.
+ * The question is displayed with its number, and each answer is displayed as a button.
+ * If answer is correct, it is marked with a 'data-correct' attribute.
+ * An event listener is added to each button to handle the 'click' event with the 'selectAnswer()' function.
+ * 
+ */
 function showQuestion() {
     resetState();
     let currentQuestion = questions[questionNumber];
@@ -228,7 +242,11 @@ function showQuestion() {
     });
 }
 
-// Hide next-button, remove answer buttons and stop confetti
+/**
+ * This function resets the state of the quiz for the next question.  
+ * It hides the 'next-button', removes all existing answer buttons, and resets the confetti effect.
+ * 
+ */
 function resetState() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild)  {
@@ -237,7 +255,19 @@ function resetState() {
     resetConfetti();
 }
 
-// Feedback if answer is correct, disable answer buttons, display next-button and keeping score
+/**
+ * This function handles the click of the answer that is selected
+ * @param: e this is the button object that called this function
+ * 
+ * The function first determines wheater the selected answer is correct by checking the 'data-correct' attribute of the clicked button.
+ * If the answer is correct, it increments the score and adds the 'correct' class to the button.
+ * If the answer is incorrect, it adds the 'incorrect' class to the button.
+ * 
+ * Then, it iterates over all the answer buttons. For each button, if answer is correct, it adds the 'correct' class to the button.
+ * All buttons are disabled to prevent further clicks.e
+ * 
+ * Finally, the 'next' button is displayed for the user to proceed to the next question.
+ */
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -256,7 +286,14 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-// Show final score with different messages and calls confetti function depending on score
+/** 
+ * This function displays the final score to the quiz to the user.
+ * It first resets the state of the quiz by calling the function resetState, then checks the final score.
+ * Depending on the score, it displays a corresponding message to the user.
+ * If the score is high enough, it also creates a confetti effect.
+ * Finally, it changes the text of the 'nextButton' to 'Play Again' and makes it visible,
+ * indicating that the user can start a new round of the quiz.
+*/
 function showScore() {
     resetState();
     if (score >= 8) {
@@ -271,7 +308,17 @@ function showScore() {
     nextButton.style.display = "block";
 }
 
-// Confetti function
+/**
+ * This function creates a confetti effect by adding multiple colored div elements to a container.
+ * It first gets the container element by its ID, 'confetti-container'.
+ * It then creates 50 pieces of confetti (as set by 'confettiCount') inside a for loop.
+ * Each piece of confetti is a div element with the class 'confetti'.
+ * The color of each piece is randomly set to either blue och yellow.
+ * The horizontal position of each piece is also set randomly.
+ * An animation delay is applied to each piece, again set randomly.
+ * Finally, each piece of confetti is appended to the container.
+ * 
+ */
 function createConfetti() {
     const container = document.getElementById("confetti-container");
     const confettiCount = 50; // Number of confetti
@@ -291,13 +338,22 @@ function createConfetti() {
     }
 }
 
-// Stops confetti when called
+/**
+ * This function resets the confetti effect by removing all confetti elements from the container.
+ * It first gets the container by its ID, 'confetti-container'.
+ * Then, it sets the inner HTML of the container to an empty string, removing all child elements (the confetti pieces).
+ */
 function resetConfetti() {
     const container = document.getElementById("confetti-container");
     container.innerHTML = ""; // Remove confetti elements
 }
 
-// Show next question or displaying final score 
+/**
+ * This function handles the progression of the quix when the 'Next' button is clicked.
+ * It first increments the question number to move to the next question.
+ * If there are more questions left in the quiz, it calls the 'showQuestion()' function to display the next question.
+ * If there are no more questions left, it calls the 'showScore()' function to display the final score to the user.
+ */
 function handleNextButton() {
     questionNumber++;
     if (questionNumber < questions.length) {
@@ -307,7 +363,12 @@ function handleNextButton() {
     }
 }
 
-// Check if there is a next question or starting the quiz again
+/**
+ * This code adds a click event listener to the 'nextButton'.
+ * When the button is clicked, it checks if there are more questions left in the quiz.
+ * If there are, it calls the 'handleNextButton()' function to proceed to the next question.
+ * If there are no more questions left, it calls the 'startQuiz()' function to reset and start the quiz from the begining.
+ */
 nextButton.addEventListener ("click", () => {
     if (questionNumber < questions.length) {
         handleNextButton();
@@ -316,5 +377,7 @@ nextButton.addEventListener ("click", () => {
     }
 });
 
-// Start quiz
+/**
+ * This calls the 'startQuiz' function.
+ */
 startQuiz();
