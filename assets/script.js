@@ -257,7 +257,7 @@ function resetState() {
 
 /**
  * This function handles the click of the answer that is selected
- * @param: e this is the button object that called this function
+ * @param: event this is the button object that called this function
  * 
  * The function first determines wheater the selected answer is correct by checking the 'data-correct' attribute of the clicked button.
  * If the answer is correct, it increments the score and adds the 'correct' class to the button.
@@ -268,8 +268,8 @@ function resetState() {
  * 
  * Finally, the 'next' button is displayed for the user to proceed to the next question.
  */
-function selectAnswer(e) {
-    const selectedBtn = e.target;
+function selectAnswer(event) {
+    const selectedBtn = event.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if (isCorrect) {
         selectedBtn.classList.add("correct");
