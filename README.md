@@ -139,47 +139,37 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Favicon:](https://favicon.io/)
     - The 'favicon.io' page was used to downoload the musical note, which is used as the favicon on the webpage.
-
+1. [Balsamiq:](https://balsamiq.com/)
+    - 
 
 ## Validator Testing
 
-The W3C Markup Validator, W3C CSS Validator and JSHint Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator and JSHint Services were used to validate the project to ensure there were no syntax errors in the project.
 
-#### First Page
+#### HTML
 
-<img src="assets/images/html-checker.png">
+<img src="assets/images/html-checker-euroq.jpg">
 
+#### CSS
 
+<img src="assets/images/css-checker-euroq.jpg">
+
+#### JavaScript
+
+<img src="assets/images/javascript-checker-euroq.jpg">
 
 ## Lighthouse Testing
 
 The Lighthouse report from Google Chrome DevTools showed very good results for Performance, Accessibility, SEO and best practises of the site.
 
-#### First Page Desktop
+#### Mobile
 
-<img src="assets/images/lighthouse-desktop.png">
+<img src="assets/images/lighthouse-mobile-euroq.jpg">
 
-#### First Page Mobile
+#### Desktop
 
-<img src="assets/images/lighthouse-mobile.png">
+<img src="assets/images/lighthouse-desktop-euroq.jpg">
 
-#### News & Events Page Desktop
-
-<img src="assets/images/lighthouse-desktop-news-events.png">
-
-#### News & Events Page Mobile
-
-<img src="assets/images/lighthouse-mobile-news-events.png">
-
-#### Contact Page Desktop
-
-<img src="assets/images/lighthouse-desktop-contact.png">
-
-#### Contact Page Mobile
-
-<img src="assets/images/lighthouse-mobile-contact.png">
-
-### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
