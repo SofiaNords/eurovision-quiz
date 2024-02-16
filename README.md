@@ -19,11 +19,11 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
            - Participants receive their quiz scores, enabling them to assess   their performance.
             - Clear feedback indicates whether their answer is correct or incorrect.
            -  If a user answers incorrectly, the correct answer is provided, helping them learn from their mistakes.
-        3. Unlimited Retries:
-            - Users enjoy the freedom to retake the quiz as many times as they desire. Whether aiming for improvement or simply having fun, unlimited retries enhance the user experience.
-
-        4. Costumized Feedback Based on Performance:
             - Depending on how the user performs, the feedback will be costumized.
+
+
+        3. Unlimited Retries:
+            - Users enjoy the freedom to retake the quiz as many times as they desire. Whether aiming for improvement or simply having fun, unlimited retries enhance the user experience.           
 
 -   ### Design
     -   #### Layout
@@ -171,27 +171,34 @@ The Lighthouse report from Google Chrome DevTools showed very good results for P
 <img src="assets/images/lighthouse-desktop-euroq.jpg">
 
 
--   #### First Time Visitor Goals
+-   #### User Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the association.
-
-        1. On the first page, the users are greeted by a large picture of Tjuvkil Beach and a clear navigation bar where the user can navigate to the News & Event and Contact pages. 
+    1. Start the Quiz Effortlessly:
         
-        2. Below the large picture, there is also a summary of the latest news and an "About-section" where you can read about the bathing association. 
+        Users can seamlessly begin the quiz without any need for explicit instructions. The intuitive interface guides them through the process.
+
+        - The first thing users see when they visit the website is the     initial quiz question along with the four answer options. Intuitively, users know they should click on one of the selectable alternatives.
+
+
+    2. View Performance Scores and Feedback:
     
-
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find information.
-
-        1. At the top of each page there is a clean navigation bar where each link describes what the page they will end up at clearly.
+        Participants receive their quiz scores, enabling them to assess   their performance.
+    
+        Clear feedback indicates whether their answer is correct or incorrect.
         
-        2. In the summary of the latest news in the first page there are links from each news to the "News and Event-page". 
-        
-        3. Right under the "About-section" at the first page there is a link named "Become a member" which leads to the contact-page where the visitor can check a checkbox to become a member while sending a message.
+        If a user answers incorrectly, the correct answer is provided, helping them learn from their mistakes.
 
-    3. As a First Time Visitor, I would like to find links to      social media to learn more about the community in the association and get an idea of what it’s like to be a member.
-        1. The footer on all pages contains links to social media where visitors can read about and view pictures of the association, including movies, as well as the community within it. It’s clear that there’s a strong sense of unity and that everyone helps each other to the best of their ability.
+        Depending on how the user performs, the feedback will be costumized.
+    
+        - When the user clicks on an answer option, the background colour changes to green if the answer is correct or to red if the answer is incorrect. If the selected option is incorrect, the background colour of the correct answer also changes, allowing the user to learn what is right. At the end of the quiz, the user receives their result along with a comment tailored to their performance.
+    
+   
 
--   
+    3. Unlimited Retries:
+            
+        Users enjoy the freedom to retake the quiz as many times as they desire. Whether aiming for improvement or simply having fun, unlimited retries enhance the user experience.
+
+        - When the user has answered all the questions and their scores are displayed, the 'Play Again' button is also activated. If the user clicks the 'Play Again' button, the quiz reloads, and the user sees the first question in front of them again.
 
 ### Further Testing
 
