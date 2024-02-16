@@ -13,16 +13,17 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
     -   #### User goals
 
         1. Start the Quiz Effortlessly:
+            - Users can seamlessly begin the quiz without any need for explicit instructions. The intuitive interface guides them through the process.
         
-            Users can begin the quiz without any explicit instructions since the interface is highly intuitive.
-        
-        2. View Performance Scores:
-            
-            Participants receive their quiz scores, allowing them to gauge how well they performed.
-
+        2. View Performance Scores and Feedback:
+           - Participants receive their quiz scores, enabling them to assess   their performance.
+            - Clear feedback indicates whether their answer is correct or incorrect.
+           -  If a user answers incorrectly, the correct answer is provided, helping them learn from their mistakes.
         3. Unlimited Retries:
+            - Users enjoy the freedom to retake the quiz as many times as they desire. Whether aiming for improvement or simply having fun, unlimited retries enhance the user experience.
 
-            Users have the flexibility to retake the quiz as many times as they’d like.
+        4. Costumized Feedback Based on Performance:
+            - Depending on how the user performs, the feedback will be costumized.
 
 -   ### Design
     -   #### Layout
@@ -38,17 +39,23 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
             <img src="assets/images/color-scheme.jpg">  
 
     -   #### Typography
-        -   The 'Protest Riot' is font used for the 'Eurovision Quiz!' heading while 'Sans-serif' is used for other content, serving as the fallback font.
+        -   The 'Protest Riot' is font used for the 'Eurovision Quiz!' heading while 'Sans-serif' is used for other content and also serving as the fallback font.
 
             <img src="assets/images/typography.jpg">
 
     -   #### Wireframes
 
+        #### Mobile
 
         <img src="assets/images/wireframe-mobile.jpg">
-        <br>
+        
+        #### Tablet
+
         <img src="assets/images/wireframe-tablet.jpg">
-        <br>
+        
+
+        #### Laptop
+
         <img src="assets/images/wireframe-laptop.jpg">
 
 
@@ -75,7 +82,7 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
     <img src="assets/images/next-button.jpg">
 
-    When the user selected an answer the 'next-button' appears.
+    When the user select an answer the 'next-button' appears.
 
 
 - Next question
@@ -84,7 +91,7 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
     When the user click the 'next-button' the quiz resets for the next question and hides the 'next-button' again. The reseteState function removes the 'answer-buttons'.
     
-    The next question appears and new buttons are created with the answers related to that question.
+    The next question appears and new buttons are created with the answers related to the current question.
 
 
 
@@ -116,6 +123,7 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
