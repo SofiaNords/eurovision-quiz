@@ -25,6 +25,23 @@ h2 {
     padding: 10px 0;
 }
 
+/* Info area */
+
+#info-container {
+    background-color: #FBC004;
+    height: 50px;
+    width: 100%;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 /* Wrapper area */
 #wrapper {
     background-color: #FF01A3;

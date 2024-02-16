@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,21 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Meta tags for search engines-->
     <meta name="description" content="Eurovision quiz. Test your knowledge about the Eurovision Song Contest">
-    <meta name="keywords" content="song contest, quiz, music, europe">
+    <meta name="keywords" content="song, contest, quiz, music, europe, eurovision">
     <title>Eurovision Quiz</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
+
 <body>
     <!-- Header -->
     <header>
+        <!-- Info -->
+        <div id="info-container">
+            <button id="infoButton">Info</button>
+            <div id="infoPopup" class="popup">
+                Här är lite information!
+            </div>
+        </div>
         <!-- Confetti -->
         <div id="confetti-container"></div>
     </header>
@@ -33,4 +42,5 @@
     </div>
     <script src="assets/script.js"></script>
 </body>
+
 </html>

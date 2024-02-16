@@ -264,7 +264,7 @@ function resetState() {
  * If the answer is incorrect, it adds the 'incorrect' class to the button.
  * 
  * Then, it iterates over all the answer buttons. For each button, if answer is correct, it adds the 'correct' class to the button.
- * All buttons are disabled to prevent further clicks.e
+ * All buttons are disabled to prevent further clicks.
  * 
  * Finally, the 'next' button is displayed for the user to proceed to the next question.
  */
@@ -381,3 +381,15 @@ nextButton.addEventListener ("click", () => {
  * This calls the 'startQuiz' function.
  */
 startQuiz();
+
+/**
+ * 
+ */
+document.getElementById("infoButton").addEventListener("click", function() {
+    var popup = document.getElementById("infoPopup");
+    if (popup.style.display === "none") {
+        popup.style.display = "block";
+    } else {
+        popup.style.display = "none";
+    }
+});
