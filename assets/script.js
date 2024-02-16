@@ -381,15 +381,3 @@ nextButton.addEventListener ("click", () => {
  * This calls the 'startQuiz' function.
  */
 startQuiz();
-
-/**
- * 
- */
-document.getElementById("infoButton").addEventListener("click", function() {
-    var popup = document.getElementById("infoPopup");
-    if (popup.style.display === "none") {
-        popup.style.display = "block";
-    } else {
-        popup.style.display = "none";
-    }
-});

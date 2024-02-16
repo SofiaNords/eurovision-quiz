@@ -117,6 +117,10 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
     The page is responsive on all devices...
 
 
+### Future features
+
+- Info button with pop-up function
+
 ## Technologies Used
 
 ### Languages Used
@@ -128,32 +132,24 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 ### Frameworks, Libraries & Programs Used
 
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the ‘Dancing Script’ font into the style.css file.
-1. [Git](https://git-scm.com/)
+    - Google fonts were used to import the 'Protest Riot' font.
+1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+1. [Favicon:](https://favicon.io/)
+    - The 'favicon.io' page was used to downoload the musical note, which is used as the favicon on the webpage.
 
 
 ## Validator Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator and JSHint Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 #### First Page
 
 <img src="assets/images/html-checker.png">
 
-#### News & Events Page
 
-<img src="assets/images/html-checker-news-events.png">
-
-#### Contact Page
-
-<img src="assets/images/html-checker-contact.png">
-
-#### CSS file
-
-<img src="assets/images/css-checker.png">
 
 ## Lighthouse Testing
 
@@ -205,34 +201,7 @@ The Lighthouse report from Google Chrome DevTools showed very good results for P
     3. As a First Time Visitor, I would like to find links to      social media to learn more about the community in the association and get an idea of what it’s like to be a member.
         1. The footer on all pages contains links to social media where visitors can read about and view pictures of the association, including movies, as well as the community within it. It’s clear that there’s a strong sense of unity and that everyone helps each other to the best of their ability.
 
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to find information about news and events in the association.
-
-        1. In the summary of the latest news in the first page there are links from each news to the "News and Event-page".
-
-        2. At the top of each page there is a clear navigation bar where the link to the "News and Events-page" is named "News and Events"
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact" Page.
-        2. Here they can fill out the form on the page.
-        3. The footer contains links to the organisations Facebook, Youtube and Instagram page.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-
-     3. As a Returning Visitor, I want to find community links.
-        1. The social media links can be found at the footer of every page and will open a new tab for the user and more information can be found on the social media pages.
-     
-
--   #### Frequent User Goals
-
-     1. As a Frequent User, I want to check to see if there are any news or newly added events to participate in.
-
-        1. The user would already be comfortable with the website layout and can see if there is any new events on the landing page or easily click the "News & Event"-link in the header.
-
-     3. As a Frequent User, I want to be able to ask questions and make suggestions to the board.
-
-        1. The user can easily click the "Contact"-link in the header and ask questions in the form and submit. 
+-   
 
 ### Further Testing
 
@@ -303,16 +272,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   The pictures on the landing page, tjuvkil-beach-people.webp and tjuvkil-beach-trift-mobile.webp, are taken by Tomas Jigfelt
-
--   The picture of the maypole on the landing page, maypole-mobile.webp, is from https://pixabay.com
-
-- The picture of the midsummer celebration, maypole-tjuvkil.webp, is taken by Sofia Nordström
+-   
 
 ### Acknowledgements
 
 -   My Mentor, Spencer Barriball, for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
-
-- Tomas Jigfelt for letting me use his beutiful pictures.
