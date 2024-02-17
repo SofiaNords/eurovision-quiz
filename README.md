@@ -184,14 +184,14 @@ The Lighthouse report from Google Chrome DevTools showed very good results for P
 
 -   #### User Goals
 
-    1. Start the Quiz Effortlessly:
+    Start the Quiz Effortlessly:
         
-        Users can seamlessly begin the quiz without any need for explicit instructions. The intuitive interface guides them through the process.
+        a. Users can seamlessly begin the quiz without any need for explicit instructions. The intuitive interface guides them through the process.
 
         - The first thing users see when they visit the website is the     initial quiz question along with the four answer options. Intuitively, users know they should click on one of the selectable alternatives.
 
 
-    2. View Performance Scores and Feedback:
+        b. View Performance Scores and Feedback:
     
         Clear feedback indicates whether their answer is correct or incorrect.
         
@@ -205,7 +205,7 @@ The Lighthouse report from Google Chrome DevTools showed very good results for P
     
    
 
-    3. Unlimited Retries:
+        c. Unlimited Retries:
             
         Users enjoy the freedom to retake the quiz as many times as they desire. Whether aiming for improvement or simply having fun, unlimited retries enhance the user experience.
 
