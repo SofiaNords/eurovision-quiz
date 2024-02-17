@@ -184,9 +184,9 @@ The Lighthouse report from Google Chrome DevTools showed very good results for P
 
 -   #### User Goals
 
-    Start the Quiz Effortlessly:
+    a. Start the Quiz Effortlessly:
         
-    a. Users can seamlessly begin the quiz without any need for explicit instructions. The intuitive interface guides them through the process.
+    Users can seamlessly begin the quiz without any need for explicit instructions. The intuitive interface guides them through the process.
 
     - The first thing users see when they visit the website is the     initial quiz question along with the four answer options. Intuitively, users know they should click on one of the selectable alternatives.
 
