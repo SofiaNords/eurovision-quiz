@@ -126,6 +126,8 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
 - An 'info button' with pop-up function in the header with an instruction about the quiz.
 
+- Add icons with descprition to buttons with correct and incorrect answer for visually impaired.
+
 - A background image.
 
 - A musicplayer that plays Eurovision songs.
