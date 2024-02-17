@@ -16,9 +16,9 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
             - Users can seamlessly begin the quiz without any need for explicit instructions. The intuitive interface guides them through the process.
         
         2. View Performance Scores and Feedback:
-           - Participants receive their quiz scores, enabling them to assess   their performance.
             - Clear feedback indicates whether their answer is correct or incorrect.
-           -  If a user answers incorrectly, the correct answer is provided, helping them learn from their mistakes.
+            - If a user answers incorrectly, the correct answer is provided, helping them learn from their mistakes.
+            - Participants receive their quiz scores, enabling them to assess   their performance.
             - Depending on how the user performs, the feedback will be costumized.
 
 
@@ -119,7 +119,11 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
 ### Future features
 
-- Info button with pop-up function
+- An 'info button' with pop-up function in the header with an instruction about the quiz.
+
+- A background image.
+
+- A musicplayer that plays Eurovision songs.
 
 ## Technologies Used
 
@@ -140,13 +144,15 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 1. [Favicon:](https://favicon.io/)
     - The 'favicon.io' page was used to downoload the musical note, which is used as the favicon on the webpage.
 1. [Balsamiq:](https://balsamiq.com/)
-    - 
+    - The wireframes are created in Balsamiq.
+1. [Coolors:](https://coolors.co/)
+    - Coolors was used to create a colour palette based on the colours extracted from the Eurovision image.
 
 ## Validator Testing
 
 The W3C Markup Validator, W3C CSS Validator and JSHint Services were used to validate the project to ensure there were no syntax errors in the project.
 
-#### HTML
+#### Html
 
 <img src="assets/images/html-checker-euroq.jpg">
 
@@ -182,11 +188,11 @@ The Lighthouse report from Google Chrome DevTools showed very good results for P
 
     2. View Performance Scores and Feedback:
     
-        Participants receive their quiz scores, enabling them to assess   their performance.
-    
         Clear feedback indicates whether their answer is correct or incorrect.
         
         If a user answers incorrectly, the correct answer is provided, helping them learn from their mistakes.
+
+        Participants receive their quiz scores, enabling them to assess   their performance.
 
         Depending on how the user performs, the feedback will be costumized.
     
@@ -204,7 +210,7 @@ The Lighthouse report from Google Chrome DevTools showed very good results for P
 
 -   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone SE, iPhone 11 & Galaxy Fold.
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   A large amount of testing was done to ensure that all JavaScript functions work as intended.
 
 
 
