@@ -186,30 +186,29 @@ The Lighthouse report from Google Chrome DevTools showed very good results for P
 
     Start the Quiz Effortlessly:
         
-        a. Users can seamlessly begin the quiz without any need for explicit instructions. The intuitive interface guides them through the process.
+    a. Users can seamlessly begin the quiz without any need for explicit instructions. The intuitive interface guides them through the process.
 
-        - The first thing users see when they visit the website is the     initial quiz question along with the four answer options. Intuitively, users know they should click on one of the selectable alternatives.
+    - The first thing users see when they visit the website is the     initial quiz question along with the four answer options. Intuitively, users know they should click on one of the selectable alternatives.
 
 
-        b. View Performance Scores and Feedback:
+    b. View Performance Scores and Feedback:
     
-        Clear feedback indicates whether their answer is correct or incorrect.
+    Clear feedback indicates whether their answer is correct or incorrect.
         
-        If a user answers incorrectly, the correct answer is provided, helping them learn from their mistakes.
+    If a user answers incorrectly, the correct answer is provided, helping them learn from their mistakes.
 
-        Participants receive their quiz scores, enabling them to assess   their performance.
+    Participants receive their quiz scores, enabling them to assess   their performance.
 
-        Depending on how the user performs, the feedback will be costumized.
+    Depending on how the user performs, the feedback will be costumized.
     
-        - When the user clicks on an answer option, the background colour changes to green if the answer is correct or to red if the answer is incorrect. If the selected option is incorrect, the background colour of the correct answer also changes, allowing the user to learn what is right. At the end of the quiz, the user receives their result along with a comment tailored to their performance.
+    - When the user clicks on an answer option, the background colour changes to green if the answer is correct or to red if the answer is incorrect. If the selected option is incorrect, the background colour of the correct answer also changes, allowing the user to learn what is right. At the end of the quiz, the user receives their result along with a comment tailored to their performance.
     
-   
 
-        c. Unlimited Retries:
+    c. Unlimited Retries:
             
-        Users enjoy the freedom to retake the quiz as many times as they desire. Whether aiming for improvement or simply having fun, unlimited retries enhance the user experience.
+    Users enjoy the freedom to retake the quiz as many times as they desire. Whether aiming for improvement or simply having fun, unlimited retries enhance the user experience.
 
-        - When the user has answered all the questions and their scores are displayed, the 'Play Again' button is also activated. If the user clicks the 'Play Again' button, the quiz reloads, and the user sees the first question in front of them again.
+    - When the user has answered all the questions and their scores are displayed, the 'Play Again' button is also activated. If the user clicks the 'Play Again' button, the quiz reloads, and the user sees the first question in front of them again.
 
 ### Further Testing
 
