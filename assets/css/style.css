@@ -102,7 +102,6 @@ h2 {
     width: 10px;
     height: 10px;
     background-color: #f39c12;
-    /* Anpassa färgen efter ditt tema */
     animation: confetti-fall 3s ease infinite;
 }
 
