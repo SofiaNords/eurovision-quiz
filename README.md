@@ -106,15 +106,20 @@ The Eurovision Quiz is a web application where users can test their knowledge ab
 
 - JavaScript Array forEach()
 
-    Since each question has four answer options that should generate buttons with the content from the ‘question'array, I used the array forEach() method.
+    Since each question has four answer options that should generate buttons with the content from the 'questions' array, I used the array forEach() method. 
 
     https://www.w3schools.com/jsref/jsref_forEach.asp
 
+- Confetti
 
+    The createConfetti() function was inspired by this tutorial:
+
+    https://dev.to/devlawrence/creating-a-confetti-effect-from-scratch-using-html-css-and-javascript-4poi
+    
 
 - Other features
 
-    The page is responsive on all devices...
+    The page is responsive on all devices.
 
 
 ### Future features
@@ -263,19 +268,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-### Code
-
--   I was inspired by the "Love Running"-project and used similiar code to my navigation menu.
-    https://sofianords.github.io/love-running/index.html
-
 ### Content
 
 -   All content was written by the developer.
-
-
-### Media
-
--   
 
 ### Acknowledgements
 
