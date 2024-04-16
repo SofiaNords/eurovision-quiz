@@ -269,9 +269,15 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-### Content
+### Inspiring YouTube channels and videos
 
--   All content was written by the developer.
+-   [GreatStack](http://www.youtube.com/@GreatStackDev) by Avinash & Team GreatStack
+
+    [How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript](https://www.youtube.com/watch?v=PBcqGxrr9g8)
+
+-   [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) by Web Dev      Simplified
+
+    [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k)
 
 ### Acknowledgements
 
